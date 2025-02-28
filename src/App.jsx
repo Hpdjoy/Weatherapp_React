@@ -77,7 +77,7 @@ const handleClick = async () => {
           <h1 className='text-4xl text-white mr-10'>Weather App</h1>
           <input type="search" id="searchinput" placeholder="Search for a city" className='h-[3rem] w-[40%] bg-white text-black hover:bg-[#ffffff27] rounded-l-md border-2 border-black
             ' onChange={handleInput}/>
-          <button id="searchbtn" className='h-[3rem] w-[10%] bg-white text-black cursor-pointer border-2 active:bg-orange-700 hover:bg-[#ffffff27] rounded-r-md border-2' onClick={handleClick}>search</button>
+          <button id="searchbtn" className='h-[3rem] w-[10%] bg-white text-black cursor-pointer border-2 active:bg-orange-700 hover:bg-[#ffffff27] rounded-r-md' onClick={handleClick}>search</button>
         </div>
       </header>
       <main>
