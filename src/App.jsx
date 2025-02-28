@@ -23,7 +23,7 @@ const handleInput = (e) => {
 
 async function fetchWeatherData(location) {
 
-  const url = `http://api.weatherapi.com/v1/current.json?key=6fc74cf82bc44773a8a171855241407&q=${location}&aqi=no`
+  const url = ``
   // fetch -> inbuilt function to get http response from a server
   const response = await fetch(url);
   if (response.status == 400) {
